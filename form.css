@@ -1,0 +1,165 @@
+body
+{
+
+margin:0px;
+padding: 0px;
+font-family:'Times New Roman';
+overflow-x: hidden;
+
+background:linear-gradient(-100deg,rgb(181, 255, 146),white,rgb(181, 255, 146));
+background-attachment:fixed;
+
+
+}
+
+
+form{
+   
+    text-align: center;
+   
+}
+
+h2{
+
+    color:white;    
+    border: 5px solid white;
+    border-radius:40px 0px 40px 0px;
+    padding: 5px;
+    box-shadow: 5px 8px black;
+    text-shadow: 2px 2px 2px black;
+        
+}
+    
+
+
+#form
+{
+
+    position:absolute;
+    top:70px;
+    left:540px;
+
+    background:linear-gradient(-300deg,rgb(0, 60, 128),rgb(40, 177, 231),rgb(0, 60, 128) );
+    width:300px;
+    height:auto;
+    padding: 30px;
+
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px black;
+
+   
+   
+}
+label
+{
+    font-family: 'Times New Roman';
+    font-size: 21px;
+    color:white;
+    text-shadow: 2px 2px 2px black;
+
+    
+    
+
+    
+
+}
+#textbox
+{
+
+    color:black;
+    /* border-radius: 12px; */
+    font-weight:700;
+    
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 2px solid white;
+
+    background: transparent;
+    outline: none;
+    
+}
+
+#textbox:focus{
+    background-color:rgb(228, 182, 58) ;
+    box-shadow: 2px 2px 10px rgb(228, 182, 58);
+    border-radius: 20px;
+    
+
+}
+
+
+#textbox::placeholder{
+
+    color:white;
+    text-shadow:2px 2px 2px black;
+    opacity: 0.8;
+
+}
+
+input
+{
+  width:70%;
+  height:25px;
+
+
+}
+select
+{
+    width:70%;
+    height:30px; 
+    font-size: 15px;
+    /* border-radius: 12px;  */
+    font-weight: 700;
+    color:white;
+    text-shadow: 1px 1px 2px black;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:2px solid white;
+    
+
+    background: transparent;
+    outline:none;
+}
+
+option
+{
+    font-size:15px;
+    font-weight: 900;
+    background-color:rgb(4, 7, 151);
+    text-align: center;
+    
+
+    
+    
+
+}
+
+#btn{
+    
+    background:linear-gradient(-300deg,rgb(15, 223, 15),white,  rgb(15, 223, 15));
+    color:black;
+    font-size: 20px;
+    font-family:'Times New Roman';
+    font-weight: 900;
+    background-origin: padding-box;
+    
+    width:100px;
+    height:35px;
+
+    border:3px solid white;
+    border-radius: 10px;
+    margin:0px 7px 0px 7px ;
+    
+
+}
+
+#btn:hover
+{
+
+    background:linear-gradient(-300deg,rgb(223, 15, 15),white,  rgb(223, 15, 15));
+    color:black;
+    
+
+}
