@@ -1,0 +1,9 @@
+@media screen and (max-width:600px){
+    #form{
+        position: absolute;
+        top:50px;
+        left:5px;
+
+        width:80%;
+    }
+}

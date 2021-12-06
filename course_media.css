@@ -1,0 +1,127 @@
+@media screen and (max-width:600px) {
+
+    #dep{
+        position: absolute;
+        top:500px;
+        left:110px;
+
+        /* width:50%; */
+        font-size:20px;
+        border-radius: 0px  35px 0px 35px;
+        
+    }
+
+    #box1{
+        position: absolute;
+        top:600px;
+        left:50px;
+        width:70%;
+
+    }
+    #box2{
+        position:absolute;
+        top:350%;
+        left:50px;
+        width:70%;
+    }
+
+    #box3{
+        position:absolute;
+        top:500%;
+        left:50px;
+        width:70%;
+    }
+
+    
+    #box4{
+        position:absolute;
+        top:650%;
+        left:50px;
+        width:70%;
+    }
+    
+    #box5{
+        position:absolute;
+        top:800%;
+        left:50px;
+        width:70%;
+    }
+
+    #box6{
+        position:absolute;
+        top:950%;
+        left:50px;
+        width:70%;
+    }
+    
+    #box7{
+        position:absolute;
+        top:1100%;
+        left:50px;
+        width:70%;
+    }
+
+    #box8{
+        position:absolute;
+        top:1250%;
+        left:50px;
+        width:70%;
+    }
+    #footer
+    {
+    position: absolute;
+    top:1450%;
+
+    width:73%;
+
+    } 
+    
+    #links{
+        /* position: relative;
+        left:70px; */
+
+        text-align: center;
+    }
+    #linkh2{
+        text-align: center;
+    }
+   
+    #contact{
+        position: relative;
+        top:20px;
+        left:10px;
+
+        
+    }
+
+    .anchortag{
+        font-weight:100;
+        word-spacing:5px;
+    }
+    #up{
+        position: relative;
+        top:10px;
+        left:280px;
+
+        width:20px;
+
+
+    }
+
+    #copy{
+        position:relative;
+        top:60px;
+        left:-50px;
+        width:140%;
+        height: 60px;
+
+        font-size:15px;
+
+
+    }
+
+    #rights{
+        text-align:center;
+        font-size:12px;
+    }
+}
