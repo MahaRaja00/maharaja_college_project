@@ -1,0 +1,83 @@
+@media screen and (max-width:600px)
+{
+    /* body{
+
+        overflow-x:hidden;
+        
+    } */
+    #nav{
+        height: 300px;
+        width:100%;
+
+        /* order:revert; */
+        display: block;
+
+    
+
+        
+        
+    }
+
+    
+
+  
+
+    #menu{
+        
+        position: relative;
+        top:30px;
+        left:40px;
+        margin-top:40px ;
+        text-align: justify;
+        
+    }
+
+    
+    #home1{
+        position:absolute;
+        right:10px;
+
+    }
+     #coures2{
+        position:absolute;
+        top:35px;
+        right:-5px;
+    }
+    
+    #faculty3{
+        position:absolute;
+        top:70px;
+        right:-5px;
+        
+    }
+    #about4{
+
+        position:absolute;
+        top:110px;
+        right:10px;
+        
+
+    }
+     #contact5{
+        position:absolute;
+        top:150px;
+        right:-10px;
+    }
+    img{
+        position: absolute;
+        top:0px;
+        left:-25px;
+
+        width:250px;
+        height: 250px;
+        
+    }
+
+    #header{
+        position:absolute;
+        top:240px;
+        left:-70px;
+
+        font-size:10px;
+    }
+}
